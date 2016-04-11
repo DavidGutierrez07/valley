@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="theme-color" content="#0489B1"/>
+        <title>Valley Cargo</title>
+
+        <!-- CSS  -->
+        <link href="min/plugin-min.css" type="text/css" rel="stylesheet"/>
+        <link href="min/custom-min.css" type="text/css" rel="stylesheet" />
+        <script src="js/init.js" type="text/javascript"></script>
+        <script src="js/materialize.js" type="text/javascript"></script>
+        <script src="js/materialize.min.js" type="text/javascript"></script>
+        <script src="js/modernizr.js" type="text/javascript"></script>
+    </h:head>
+    <h:body id="top" class="scrollspy">
+
+        <!-- Pre Loader -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+        </div>
+
+        <!--Navigation-->
+        <div class="navbar-fixed ">
+            <nav id="nav_f" class="blue-grey" role="navigation">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" id="logo-container" class="brand-logo"><img src="img/logo.png" width="10%" height="10%">. Valley Cargo</img></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a class="modal-trigger waves-light " href="#modal1">Login</a>
+                                <div id="modal1" class="modal modal-fixed-footer">
+                                    <div class="modal-content">
+                                        <h4>Inicio de Sesion</h4>
+                                        <p>A bunch of text</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Entrar</a>
+                                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Registrarse</a>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li><a href="#work">Quienes Somos</a></li>
+                             <li> <a class="modal-trigger waves-light " href="#modal1">Registrate</a></li>
+                          
+                            <li><a href="#contact">Contactenos</a></li>
+
+                        </ul>
+
+                        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--Hero-->
+       
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                <h2>
+                    <center>  <span>Registro</span></center> </h2>
+                    <h:form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix"></i>
+                                <h:inputText id="documento" />
+                                <label for="doc">Documento</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix"></i>
+                                <h:inputText id="nombre" />
+                                <label for="nom">Nombre</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix"></i>
+                                <h:inputText id="apellido"/>
+                                <label for="ape">Apellido</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix"></i>
+                                <h:inputText id="tele" />
+                                <label for="tele">Telefono</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix"></i>
+                                <h:inputText id="direccion"/>
+                                <label for="direc"> Direccion</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix"></i>
+                                <h:inputText id="email" />
+                                <label for="correo">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+
+                                <h:selectOneMenu >
+                                <!--    <f:selectItem itemValue="" itemLabel="Escoja una Ciudad" p:disabled="true" p:selected="true">
+
+                                    </f:selectItem>
+                                    <c:forEach var="ciudad" items="">
+                                        <f:selectItem itemValue="" itemLabel=""/>
+
+                                    </c:forEach>-->
+                                </h:selectOneMenu>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix"></i>
+                                <h:inputSecret id="clave"/>
+                                <label for="clave">Clave</label>
+                            </div> 
+                        </div>
+                        <div >
+                             <center>  <button class="btn waves-effect waves-light red darken-1" type="submit">Registrar
+                                        <i class="mdi-content-send right white-text"></i>
+                                    </button>
+                                    <a href="index.xhtml" class="btn waves-effect waves-light red darken-1" type="submit">volver
+                                        <i class="mdi-content-send right white-text"></i>
+                                    </a>
+       </center>  
+      
+      
+    </div>
+                    </h:form>
+                    </div></div>
+                            </div>
+        <br/>
+        <br/>
+        
+
+        
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/parallax1.png"/></div>
+        </div>
+
+     
+        <footer id="contact" class="page-footer teal scrollspy">
+            <div class="container">  
+                <div class="row ">
+                    <div class="col l6 s12">
+                        <form class="col s12 " action="contact.php" method="post" >
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <i class="mdi-action-account-circle prefix white-text"></i>
+                                    <input id="icon_prefix" name="name" type="text" class="validate white-text"/>
+                                    <label for="icon_prefix" class="white-text">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <i class="mdi-communication-email prefix white-text"></i>
+                                    <input id="icon_email" name="email" type="email" class="validate white-text"/>
+                                    <label for="icon_email" class="white-text">Email-id</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <i class="mdi-editor-mode-edit prefix white-text"></i>
+                                    <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
+                                    <label for="icon_prefix2" class="white-text">Message</label>
+                                </div>
+                                <div class="col offset-s7 s5">
+                                    <button class="btn waves-effect waves-light red darken-1" type="submit">Enviar
+                                        <i class="mdi-content-send right white-text"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">ValleyCargo.com</h5>
+                        <ul>
+                            <li><a class="white-text" href="http://www.joashpereira.com/">Home</a></li>
+                            <li><a class="white-text" href="http://www.joashpereira.com/blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12 teal" >
+                        <h5 class="white-text">Social</h5>
+                        <ul>
+                            <li>
+                                <a class="white-text" href="https://www.behance.net/joashp">
+                                    <i class="small fa fa-behance-square white-text"></i> Behance
+                                </a>
+                            </li>
+                            <li>
+                                <a class="white-text" href="https://www.facebook.com/joash.c.pereira">
+                                    <i class="small fa fa-facebook-square white-text"></i> Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a class="white-text" href="https://github.com/joashp">
+                                    <i class="small fa fa-github-square white-text"></i> Github
+                                </a>
+                            </li>
+                            <li>
+                                <a class="white-text" href="https://www.linkedin.com/in/joashp">
+                                    <i class="small fa fa-linkedin-square white-text"></i> Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright blue-grey">
+                <div class="container">
+                    <center> Valley Cargo <a class="white-text" href="http://joashpereira.com"></a>Todos los Derechos reservados</center>
+                </div>
+            </div>
+        </footer>
+<!-- Modal -->
+ 
+                                <div id="modal1" class="modal modal-fixed-footer">
+                                    <div class="modal-content">
+                                        <h4>Modal Header</h4>
+                                        <p>A bunch of text</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Volver</a>
+                                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Registrar</a>
+                                    </div></div>
+
+        <!--  Scripts-->
+
+        <script src="min/plugin-min.js"></script>
+
+        <script src="min/custom-min.js"></script>
+        <script>
+
+            $('.modal-trigger').leanModal({
+                dismissible: true, // Modal can be dismissed by clicking outside of the modal
+                opacity: .5, // Opacity of modal background
+                in_duration: 300, // Transition in duration
+                out_duration: 200, // Transition out duration
+
+            }
+            );
+        </script>
+
+
+    </h:body>
+</html>
+
+
